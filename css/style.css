@@ -6,20 +6,11 @@ header .row {
     height: 80px;
 }
 
-section {
-    margin: 20px 0;
-}
-
-i{
-    color: white;
-}
-
-.row {
+.row-bg {
     background-color: lightblue;
-    width: 100%;
 }
 
-[class^='col'] {
+[class*='column'] {
     background-color: lightskyblue;
     height: 50px;
     border: 1px dashed black;
@@ -29,13 +20,6 @@ i{
     height: 250px;
 }
 
-
-[class^='offset'] {
-    width: 0.1px;
-}
-
-.footer-upper {
-}
 
 .footer-bottom {
     height: 100px;
