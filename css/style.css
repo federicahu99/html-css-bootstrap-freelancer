@@ -1,3 +1,33 @@
-.col {
-    background-color: aqua;
+header {
+    height: 90px;
+    background-color: lemonchiffon;
 }
+
+ header .row {
+    height: 80px;
+    background-color: lightblue;
+}
+
+
+.row {
+    height: 100%;
+    background-color: lightblue;
+    width: 100%;
+}
+
+[class^='col'] {
+    background-color: lightgray;
+    height: 50px;
+}
+
+main {
+    background-color: lightpink;
+    height: 250px;
+    margin: 20px 0;
+}
+
+[class^='offset'] {
+    height: 50px;
+    width: 0;
+}
+
