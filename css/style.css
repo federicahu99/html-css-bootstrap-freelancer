@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 header {
    background-color: #2C3E50
 }
@@ -48,7 +52,12 @@ header .row {
     margin: 0 auto;
 }
 
+/* Portfolio */
 
+._column img {
+    border-radius: 20px;
+    margin: 20px;;
+}
 
 
 
