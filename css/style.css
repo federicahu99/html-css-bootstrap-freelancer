@@ -1,5 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    height: 90px;
+   background-color: #2C3E50
 }
 
 header .row {
@@ -10,12 +14,16 @@ footer {
     margin: 20px 0;
 }
 
+/* header */
+
+._list {
+    margin-top: 10px;
+}
 .row-bg {
     background-color: lightblue;
 }
 
 [class*='column'] {
-    background-color: lightskyblue;
     height: 50px;
     border: 1px dashed black;
 }
