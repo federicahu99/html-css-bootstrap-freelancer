@@ -11,11 +11,6 @@ header {
    background-color: #2C3E50
 }
 
-footer {
-    margin: 20px 0;
-}
-
-
 
 /* Utilies */
 
@@ -68,9 +63,14 @@ header .row {
 }
 
 
+/* Footer */
 
+._footer-upper {
+    background-color: #4b7093;
+}
 
-.footer-bottom {
-    height: 100px;
+._footer-bottom {
+    height: 80px;
+    background-color: #30465b;
 }
 
