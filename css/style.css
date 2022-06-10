@@ -1,3 +1,4 @@
+/* General */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -6,31 +7,51 @@ header {
    background-color: #2C3E50
 }
 
-header .row {
-    height: 80px;
-}
-
 footer {
     margin: 20px 0;
 }
 
+/* Utilies */
+
+._margin-auto {
+    margin: 0 auto;
+}
+
 /* header */
+
+header .row {
+    height: 80px;
+}
 
 ._list {
     margin-top: 10px;
 }
-.row-bg {
-    background-color: lightblue;
+
+/* Jumbotron */
+
+#jumbotron {
+    background-color: #1abc9c;
+    height: 80vh;
+    padding: 20px 0;
 }
 
-[class*='column'] {
-    height: 50px;
-    border: 1px dashed black;
+.jumbocontainer {
+    width: 70%;
+    margin: 40px auto;
 }
 
-.big {
-    height: 250px;
+._jumbo-img img {
+    height: 30%;
 }
+
+._star-container {
+    margin: 0 auto;
+}
+
+
+
+
+
 
 
 .footer-bottom {
