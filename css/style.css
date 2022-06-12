@@ -11,6 +11,13 @@ header {
    background-color: #2C3E50
 }
 
+button {
+    background-color: #1abc9c;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
 
 /* Utilies */
 
@@ -30,20 +37,16 @@ header .row {
 
 /* Jumbotron */
 
-#jumbotron {
+#_jumbotron {
     background-color: #1abc9c;
-    height: 80vh;
     padding: 20px 0;
 }
 
-.jumbocontainer {
-    width: 70%;
+._jumbocontainer {
+    width: 80%;
     margin: 40px auto;
 }
 
-._jumbo-img img {
-    height: 30%;
-}
 
 ._star-container {
     margin: 0 auto;
@@ -60,6 +63,14 @@ header .row {
 
 #_bg-acqua {
     background-color: #1abc9c;
+}
+
+/* Contact */
+
+._border-bottom {
+    border:none; 
+    border-bottom: 2px solid #ced4da;
+    border-radius: 0;
 }
 
 

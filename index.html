@@ -31,24 +31,29 @@
                      
                 </div>
                 </div>
-            </div>
         </div>
     </header>
 
     <main> 
 <!--jumbotron-->
-        <section id="jumbotron">
-            <div class="container">
+        <section id="_jumbotron">
+            <div class="_jumbocontainer">
                 <div class="row align-items-center">
-                    <div class="column col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4 big text-white"> 
+                    <div class="_column col-10 offset-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 big text-white"> 
+                        <figure>
                         <img src="img/avatar.svg" alt="" id="_jumbo-img" class="mb-5">
+                        </figure>
+                        <div>
                         <h1 class="text-center fs-1">START BOOTSTRAP</h1>
+                        </div>
                         <div class="_star-container fs-1 text-center">
                             <i class="bi bi-dash-lg"></i>
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-dash-lg"></i>
                         </div>
-                        <h2 class="m-3 text-center fs-6">GRAPHIC DESIGNER - WEB DESIGNER - ILLUSTRATOR</h2>
+                        <div>
+                        <h2 class="m-1 text-center fs-6">GRAPHIC DESIGNER - WEB DESIGNER - ILLUSTRATOR</h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -117,24 +122,45 @@
             </div>
         </section>
 
-
-        <section class="container">
+    <!--contact me-->
+        <section class="container p-5">
             <h1 class="text-center">Contact me</h1>
-            <div class="row">
-                <div class="_column col-4 offset-4 col-md-6 offset-md-3 col-lg-2 offset-lg-5 d-flex justify-content-center">stella</div>
+            <div class="_star-container fs-1 text-center">
+                <i class="bi bi-dash-lg"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-dash-lg"></i>
             </div>
-        </section>
+        
+            <form>
+                <div class="row">
+                    <div class="_column col-10 offset-1 col-md-12 offset-md-0 offset-lg-12 col-lg-0 d-flex justify-content-between flex-column">
+                    
+                            <div class="mb-3">
+                                <label for="name" class="form-label ">First name</label>
+                                <input type="text" class="form-control _border-bottom" id="name">
+                            </div>
 
-        <section class="container">
-            <div class="row">
-                <div class="_column col-10 offset-1">name</div>
-                <div class="_column col-10 offset-1">email</div>
-                <div class="_column col-10 offset-1">number</div>
-                <div class="_column col-10 offset-1">message</div>
-            </div>
-            <div class="row align-content-start">   
-                <div class="_column col-2 offset-5 d-flex justify-content-start">send</div>
-            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="text" class="form-control _border-bottom" id="email">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="cel" class="form-label">Phone number</label>
+                                <input type="text" class="form-control _border-bottom" id="cel">
+                            </div>
+                           
+                            <div class="mb-3">
+                                <label for="textarea" class="form-label">Message</label>
+                                <textarea class="form-control _border-bottom" id="textarea" rows="3"></textarea>
+                            </div>
+
+                            <div><button>Send</button></div>
+                    </div>
+                </div>                           
+            </form>
+         
+           
         </section>
         </main>
 
@@ -162,7 +188,7 @@
                         </div>
 
                         <div class="_column col-12 col-md-4 d-flex align-items-center justify-content-center">
-                            <div class="text-center m-3 fs-5">
+                            <div class="text-center m-3 fs-6">
                                 <h3>ABOUT FREELANCER</h3>
                                 <div>Freelance is a free to use, open source Bootstrap theme created by
                                     <a href="" class="text-decoration-none"> Start Bootstrap</a>
